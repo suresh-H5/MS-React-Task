@@ -1,0 +1,23 @@
+.gender-filter-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+.gender-filter-content {
+  padding-left: 20px;
+}
+.gender-filter-content > div {
+  margin-top: 5px;
+}
+
+.gender-category {
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.gender-category:last-child {
+  padding: 0;
+}
+.gender-category span {
+  display: block;
+}

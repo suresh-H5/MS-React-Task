@@ -1,0 +1,12 @@
+@import "../../constants/css-constants.scss";
+
+.category-filter-container {
+  display: inline-block;
+  margin-left: 25px;
+  .category-filter-content {
+    padding: 0 40px;
+  }
+  & h4 {
+    margin-bottom: 10px;
+  }
+}

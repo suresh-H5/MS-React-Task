@@ -1,0 +1,44 @@
+@import "../../constants/css-constants.scss";
+.price-filter-container {
+  display: inline-block;
+  margin: 0 30px;
+  .price-filter-content {
+    width: 250px;
+    .price-filter-content input {
+      width: 100%;
+    }
+    .price-range {
+      margin-top: 5px;
+    }
+  }
+}
+.price-tag {
+  padding-right: 21px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 1px;
+  background: gray;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  @media screen and (max-width: 720px) {
+    width: 70%;
+    margin: 0 20px;
+  }
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: $heading-color;
+    cursor: pointer;
+  }
+  &::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: $heading-color;
+    cursor: pointer;
+  }
+}
